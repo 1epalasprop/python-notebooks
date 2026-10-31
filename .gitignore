@@ -158,3 +158,13 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# nbgrader - never commit instructor/grader state (lives in ~/dev/python-course)
+source/
+release/
+submitted/
+autograded/
+feedback/
+gradebook.db
+grades.csv
+nbgrader_config.py
